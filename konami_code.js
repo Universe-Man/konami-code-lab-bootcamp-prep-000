@@ -11,9 +11,8 @@ function init() {
         alert("Congraulations!");
         index = 0;
       }
-
-      alert("Congraulations!")
     } else {
-
+      index = 0;
     }
+  }
 }

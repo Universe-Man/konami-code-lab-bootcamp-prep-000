@@ -5,9 +5,12 @@ function init() {
   let index = 0;
   function youGotIt(event) {
     const key = parseInt(event.detail || event.which)
-
     if (key === code[index]) {
-      index++
+      index++;
+      if (index === code.length) {
+        alert("Congraulations!");
+        index = 0;
+      }
 
       alert("Congraulations!")
     } else {
